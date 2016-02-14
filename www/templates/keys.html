@@ -1,0 +1,13 @@
+<ion-view view-title="Keys" title="Keys">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="key in keys" href="#/app/keys/{{key.id}}">
+        {{key.title | uppercase}}
+      </ion-item>
+    </ion-list>
+
+    <div>
+      mylocation {{myCoords}}
+    </div>
+  </ion-content>
+</ion-view>
