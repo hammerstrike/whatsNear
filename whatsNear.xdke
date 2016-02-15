@@ -4,6 +4,11 @@
     "initialAutoPluginCount": 0,
     "currentBuildConfiguration": "WebApp",
     "projectFiles": {},
-    "projectDirectories": {}
+    "projectDirectories": {},
+    "currentService": {
+      "methodapi": "placeDetails",
+      "endPoint": "Details-",
+      "service": "googleplaces"
+    }
   }
 }
